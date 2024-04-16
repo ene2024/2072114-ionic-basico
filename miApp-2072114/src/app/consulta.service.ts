@@ -10,3 +10,4 @@ export class ConsultaService {
   getProductos() {    return this.http.get('https://fakestoreapi.com/products')}
 
 }
+
