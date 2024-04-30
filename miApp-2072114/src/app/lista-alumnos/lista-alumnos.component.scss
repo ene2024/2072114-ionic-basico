@@ -1,0 +1,20 @@
+ion-input .ng-dirty {
+    --highlight-color-valid: blue;
+}
+ion-input .ng-pristine {
+    --highlight-color-valid: white;
+}
+ion-input .ng-invalid {
+    --highlight-color-valid: red;
+}
+
+form .ng-invalid {
+    background-color: rgba(255, 0, 0, 0.055);
+}
+
+form .ng-valid {
+    background-color: rgba(123, 255, 0, 0.055);
+}
+form{
+    padding: 5%;
+    }
